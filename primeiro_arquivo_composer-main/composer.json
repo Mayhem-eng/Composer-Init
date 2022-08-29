@@ -1,0 +1,18 @@
+{
+    "name": "felipe/primeiroprojetophpusandocomposer",
+    "description": "Primeiro projeto utilizando o Composer",
+    "type": "project",
+    "require": {
+        "monolog/monolog": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "felipe\\Primeiroprojetophpusandocomposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Felipe Eduardo"
+        }
+    ]
+}
